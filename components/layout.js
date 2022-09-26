@@ -7,7 +7,6 @@ export default function Layout({ children }) {
     return (<div className={styles.container}>
         <Head>
             <title>Create Next App</title>
-            <link rel="stylesheet" href="/fonts/iconfont/iconfont.css"></link>
         </Head>
         <Header></Header>
         <div className={styles.content}>
