@@ -1,0 +1,40 @@
+.headerWrap {
+    height: 60px;
+    line-height: 60px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.headerLeft {
+    float: left;
+    min-width: 100px;
+}
+
+.headerRight {
+    float: right;
+    display: flex;
+    width: 500px;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.iconLink {
+    font-size: 25px;
+    color: inherit;
+}
+
+.rigthitem {
+    /* width: 50px; */
+    cursor: pointer;
+}
+
+.netName {
+    font-size: 25px;
+    cursor: pointer;
+    font-family: "Cedarville Cursive", sans-serif;
+    color: inherit;
+    text-decoration: none;
+}

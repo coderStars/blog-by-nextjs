@@ -108,6 +108,12 @@
   margin-left: 0.5rem;
 }
 
+.logoImg {
+  min-width: 60px;
+  min-height: 60px;
+  border-radius: 50%;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
@@ -116,13 +122,16 @@
 }
 
 @media (prefers-color-scheme: dark) {
+
   .card,
   .footer {
     border-color: #222;
   }
+
   .code {
     background: #111;
   }
+
   .logo img {
     filter: invert(1);
   }

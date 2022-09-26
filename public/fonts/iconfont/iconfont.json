@@ -1,0 +1,30 @@
+{
+  "id": "3673940",
+  "name": "nextjs-blog",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4937000",
+      "name": "github-fill",
+      "font_class": "github-fill",
+      "unicode": "e885",
+      "unicode_decimal": 59525
+    },
+    {
+      "icon_id": "10932452",
+      "name": "bilibili-line",
+      "font_class": "bilibili-line",
+      "unicode": "e69e",
+      "unicode_decimal": 59038
+    },
+    {
+      "icon_id": "14151837",
+      "name": "换肤",
+      "font_class": "huanfu",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    }
+  ]
+}
