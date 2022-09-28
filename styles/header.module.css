@@ -1,19 +1,17 @@
 .headerWrap {
-    height: 60px;
-    line-height: 60px;
-    margin-top: 10px;
+    padding: 15px 60px;
     overflow: hidden;
+    display: flex;
+    justify-content: space-between;
 }
 
 .headerLeft {
-    float: left;
     min-width: 100px;
 }
 
 .headerRight {
-    float: right;
     display: flex;
-    width: 500px;
+    gap: 22px;
     margin: 0;
     list-style: none;
     text-align: center;
@@ -21,8 +19,18 @@
     justify-content: space-evenly;
 }
 
+.headerRight i {
+    cursor: pointer;
+    color: var(--element1);
+}
+
+.headerRight a {
+    color: var(--element1);
+}
+
 .iconLink {
     font-size: 25px;
+    font-family: 'Cedarville Cursive';
     color: inherit;
 }
 
@@ -35,6 +43,6 @@
     font-size: 25px;
     cursor: pointer;
     font-family: "Cedarville Cursive", sans-serif;
-    color: inherit;
+    color: var(--element1);
     text-decoration: none;
 }

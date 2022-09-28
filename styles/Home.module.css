@@ -2,6 +2,12 @@
   padding: 0 2rem;
 }
 
+.headerWrap {
+  display: flex;
+}
+
+
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;
@@ -109,9 +115,37 @@
 }
 
 .logoImg {
-  min-width: 60px;
-  min-height: 60px;
+  /* min-width: 60px;
+  min-height: 60px; */
   border-radius: 50%;
+}
+
+.logoRightWrap {
+  margin-left: 10px;
+  padding-top: 10px;
+  color: var(--element1);
+}
+
+.logoRightTopMark {
+  margin: 0;
+}
+
+.logoRightBottomMark {
+  margin-left: 10px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.contentWrap {
+  /* color: #555555; */
+  color: var(--element1);
+  line-height: 29px;
+  margin-top: 30px;
+}
+
+.contentWrap p {
+  margin: 0;
+  margin-bottom: 40px;
 }
 
 @media (max-width: 600px) {
