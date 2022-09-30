@@ -5,6 +5,12 @@
     justify-content: space-between;
 }
 
+@media screen and (max-width: 600px) {
+    .headerWrap {
+        padding: 10px 25px;
+    }
+}
+
 .headerLeft {
     min-width: 100px;
 }
@@ -19,6 +25,12 @@
     justify-content: space-evenly;
 }
 
+@media screen and (max-width: 600px) {
+    .headerRight {
+        gap: 14px;
+    }
+}
+
 .headerRight i {
     cursor: pointer;
     color: var(--element1);
@@ -28,14 +40,26 @@
     color: var(--element1);
 }
 
+.headerRight .mobile {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .headerRight .mobile {
+        display: block;
+    }
+
+    .headerRight .lapTop {
+        display: none;
+    }
+}
+
 .iconLink {
     font-size: 25px;
-    font-family: 'Cedarville Cursive';
     color: inherit;
 }
 
 .rigthitem {
-    /* width: 50px; */
     cursor: pointer;
 }
 
